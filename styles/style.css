@@ -279,6 +279,20 @@ main {
 	width: 165px;
 }
 
+/* Footer */
+.footer--section {
+	text-align: center;
+	border-radius: 8px;
+	padding: 40px 0;
+	background-color: #fff4e7;
+	margin-top: 100px;
+}
+
+.footer--section__title {
+	color: #424242;
+	font-size: 1.25rem;
+}
+
 /* Main Area Styling  End*/
 
 /* Responsive Media Query  Start */
@@ -383,6 +397,11 @@ main {
 	.sponsors--section__logo--container {
 		flex-direction: column;
 		gap: 40px;
+	}
+
+	/* Footer Section */
+	.footer--section__title {
+		padding: 0 20px;
 	}
 }
 
